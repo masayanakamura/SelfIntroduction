@@ -1,0 +1,248 @@
+body{
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+	font-size: 62.5%;
+	line-height: 1.6;
+	color: #333;
+	background:url(../images/BGCo_01.png);
+}
+
+a:link,
+a:visited,
+a:active{
+	color: #fa9a4a;
+	text-decoration: underline;
+}
+a:hover{
+	color: #fa9a4a;
+	text-decoration: none;
+}
+
+/* ヘッダーエリアの設定 */
+#pageHeader{
+	background: url(../images/BGCo_01.png);;
+	width: 100%;
+	font-size: 1.1em;
+}
+#headerTop{
+	width: 900px;
+	margin: 0 auto;
+	position: relative;
+}
+h1{
+	padding-top: 25px;
+	font-size: 2rem;
+}
+h2{
+	font-weight: normal;
+	font-size: 1.4em;
+	color: #999;
+	margin: 0 0 20px 60px;
+}
+
+#subNav{
+	list-style: none;
+	position: absolute;
+	top: 30px;
+	right: 10px;
+}
+
+#subNav li{
+	float: left;
+	margin-right: 30px;
+}
+
+#subNav li a.siteMap{
+	background: url(../images/sitemap.gif) no-repeat left center;
+	display: block;
+	padding-left: 18px;
+	min-height: 11px;
+}
+
+#subNav li a.rss{
+	background: url(../images/rss.gif) no-repeat left center;
+	display: block;
+	padding-left: 18px;
+	min-height: 11px;
+}
+/* グローバルナビゲーション*/
+nav{
+	width: 100%;
+	background: url(../images/nvbg.png) repeat-x;
+	min-height: 48px;
+}
+#globalNav{
+	width: 900px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#globalNav li{
+	height: 48px;
+	float: left;
+}
+#globalNav li a{
+	display: block;
+	width: 140px;
+	height: 48px;
+	color: #fff;
+	text-align: center;
+	line-height: 48px;
+	text-decoration: none;
+	font-size: 1.4em;
+	text-transform: uppercase;
+	padding: 0 5px;
+	transition: 0.25s linear;
+}
+#globalNav li a:hover{
+	background: #6F9;
+}
+
+/* 自己紹介部分の設定 */
+#zikosyokai{
+	width:900px;
+	margin: 0 auto;
+}
+#zikosyokai p img{
+	display: block;
+	width: 140px;
+	margin: 20px 10px 10px 40px;
+}
+#left{
+	display:inline-block;
+	width: 320px;
+	marigin: 10px;
+	float:left;
+}
+#skill{
+	display:inline-block;
+	width: 430px;
+	marigin: 10px 20px 10px 10px;
+	float:left;
+}
+#profile{
+	display:inline-block;
+	width:840px;
+}
+#left h3,
+#skill h4,
+#profile h4{
+	font-size:1.5rem;
+}
+#left p,
+#skill p,
+#profile p{
+	font-size:1.3rem;
+	margin:10px;
+}
+
+#career{
+	border: 5px solid #e6ded6;
+	width:820px;
+	margin: 0 auto;
+	padding: 5px 40px 5px 40px;
+	font-size:1.2rem;
+	background: #fff;
+	box-shadow: #ccc 0 2px 3px;
+}
+#left h3,
+#skill h4,
+#profile h4,
+#career h4,
+#activity h4,
+#favourite h4{
+	border-bottom: 1px solid #f3f2f2;
+	font-size: 1.5rem;
+	font-style:oblique;
+	color:#666;
+}
+
+#activity,
+#favourite{
+	width: 900px;
+	margin: 20px auto;
+	border: 1px solid #eee;
+	border-radius: 10px;
+	background: #fff;
+}
+#bungei,
+#parttime{
+	width: 400px;
+	float: left;
+	margin:0 20px 10px 0;
+	font-size:1.2rem;
+}
+.box{
+	width: 250px;
+	float: left;
+	margin-right: 30px;
+	font-size:1.2rem;
+}
+.box img{
+	display:block;
+	border: 1px solid #eee;
+	background: #fff;
+}
+.box a{
+	display: inline-block;
+	width: 76px;
+	color: #fff;
+	font-size: 1em;
+	text-align: center;
+	padding: 4px 12px;
+	text-decoration: none;
+	border: 1px solid #6F9;
+	border-radius: 2px;
+	background: #6F9;
+	background: linear-gradient(#6F9,#6c7);
+	box-shadow: 0 1px 2px rgba(000,000,000,0.2);
+	text-shadow: 0 1px 2px rgba(000,000,000,0.2);
+	transition: 1s linear;
+}
+
+.box a:hover{
+	border: 1px solid #fcb457;
+	background: #7c2;
+	background: linear-gradient(#7c2,#7ff);
+}
+#activity h4,
+#bungei,
+#favourite h4,
+#narou,
+#left,
+#profile{
+	margin-left: 40px;
+}
+
+
+
+
+/* フッターエリアの設定 */
+footer{
+	width: 100%;
+	background: #9d958b;
+	margin-top: 80px;
+	font-size: 1.1em;
+	position: relative;
+	min-height: 130px;
+}
+
+footer p small{
+	display: block;
+	width: 940px;
+	margin: 0 auto;
+	color: #fff;
+	padding-top: 15px;
+	text-align: center;
+}
+
+#gotoTop{
+	position: absolute;
+	right: 0;
+	top: -140px;
+}
+
+/* clearfix hack */
+.clearfix:after {
+	content:" ";
+	display:block;
+	clear:both;
+}

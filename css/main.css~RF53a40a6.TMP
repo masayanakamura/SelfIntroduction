@@ -1,0 +1,187 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 62.5%;
+	line-height:1.6;
+	color:#333;
+	background:url(../images/BGCo_01.png);
+}
+
+a:link,
+a:visited,
+a:active{
+	color: #fa9a4a;
+	text-decoration: underline;
+}
+a:hover{
+	color: #fa9a4a;
+	text-decoration: none;
+}
+
+/* ヘッダーエリア設定 */
+#pageHeader{
+	width: 100%
+	font-size: 1.1em;
+	border-bottom: 1px solid #f3f2f2;
+}
+#headerTop{
+	width: 900px;
+	margin: 0 auto;
+	position: relative;
+}
+h1{
+	padding-top: 25px;
+	font-size:3em;
+}
+h2{
+	font-weight: normal;
+	font-size: 2em;
+	color: #999;
+	margin: 0 0 20px 60px;
+}
+#subNav{
+	list-style: none;
+	position: absolute;
+	top: 30px;
+	right: 10px;
+}
+#subNav li{
+	float: left;
+	margin-right: 30px;
+}
+#subNav li a.siteMap{
+	background: url(../images/sitemap.gif) no-repeat left center;
+	display: block;
+	padding-left: 18px;
+	min-height: 11px;
+}
+#subNav li a.rss{
+	background: url(../images/rss.gif) no-repeat left center;
+	display: block;
+	padding-left: 18px;
+	min-height: 11px;
+}
+
+/* グローバルナビゲーション */
+nav{
+	width: 100%;
+	background: url(../images/nvbg.png) repeat-x;
+	min-height: 48px;
+}
+#globalNav{
+	width: 900px;
+	margine: 0 auto;
+	overflow: hidden;
+}
+#globalNav li{
+	height: 48px;
+	float: left;
+}
+#glovalNav li a{
+	display:block;
+	width: 140px;
+	height: 48px;
+	color: #fff;
+	text-aline: center;
+	line-height: 48px;
+	text-decoration: none;
+	font-size:3em;
+	text-transform: uppercase;
+	padding: 0 5px;
+	transition: 0.25s linear;
+}
+#globalNav li a:hover{
+	
+}
+
+/* コンテンツ */
+#zikosyokai{
+	width: 900px;
+	margin: 0 auto;
+	font-size: 2em;
+}
+#img{
+	display: block;
+	width: 130px;
+	margin: 0 auto;
+}
+#left{
+	width: 200px;
+	float: left;
+	margin: 10px 10px;
+}
+#skill{
+	width: 630px;
+	margin: 10px 0 10px 10px;
+	float: left;
+}
+#profile{
+	width:  800px;
+	margin: 10px 0 10px 20px;
+}
+
+#career{
+	border: 5px solid #e6ded6;
+	margin-top: 45px;
+	padding: 0 16px 6px;
+	background: #fff;
+	font-size:1.2rem;
+}
+#career h4{
+	margin-top: 10px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 3px;
+}
+#activity{
+	
+}
+#bungei,
+#parttime{
+	margin: 0 auto;
+	width: 400px;
+	border: 1px solid #eaeaea;
+	margin-top: 30px;
+	padding: 0 16px 30px;
+	background: #fff;
+	box-shadow: #ccc 0 2px 3px;
+	font-size: 1rem;
+	
+}
+#bungei h5,
+#parttime h5{
+	margin-top: 10px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 3px;
+}
+
+
+
+
+
+footer{
+	width: 100%;
+	background: #9d958b;
+	margin-top: 80px;
+	font-size: 1.1em;
+	position: relative;
+	min-height: 130px;
+}
+
+footer p small{
+	display: block;
+	width: 900px;
+	margin: 0 auto;
+	color: #fff;
+	padding-top: 15px;
+	text-align: center;
+}
+
+
+
+/* clearfix hack */
+.clearfix:after {
+	content:" ";
+	display:block;
+	clear:both;
+}

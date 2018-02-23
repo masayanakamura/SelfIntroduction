@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+
+<title>解体新書 中村政哉版</title>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/main.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+	$(function(){
+  $('a[href^="#"]').click(function(){
+    var speed = 500;
+    var href= $(this).attr("href");
+    var target = $(href == "#" || href == "" ? 'html' : href);
+    var position = target.offset().top;
+    $("html, body").animate({scrollTop:position}, speed, "swing");
+    return false;
+  });
+});	
+</script>
+</head>
+
+<body>
+    <div id="pageHeader" class="clearfix">
+        <header id="headerTop" class="clearfix">
+            <h1>解体新書　中村政哉版</h1>
+            <h2>中村政哉を隅々まで解説</h2>
+            <ul id="subNav" class="clearfix">
+                <li><a href="#" class="siteMap">サイトマップ</a></li>
+                <li><a href="#" class="rss">RSS</a></li>
+               </ul>
+        </header>
+        
+        <nav class="clearfix">
+            <ul id="globalNav" class="clearfix">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Skill</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Career</a></li>
+                <li><a href="#">Activity</a></li>
+                <li><a href="#">Favourite</a></li>
+            </ul>
+        </nav>
+	</div>    
+    
+    <div id="zikosyokai" class="clearfix">
+    	<p><img src="images/syoumeisyasin.jpg" width="130" height="148" alt="kao"></p>
+        
+        	<section id="left" class="clearfix"> 
+        		<h3>Clinical records</h3>
+            	<p>氏名：中村政哉</p>
+                <p>生年月日:西暦1996年3月14日生まれ</p>
+        	</section>
+            
+            <section id="skill" class="clearfix">
+            	<h4>Skill</h4>
+                <p>スキル：C++,java,mySQL,PHP,excel,word,powerpoint,HTML,CSS</p>
+            </section>
+            
+            <section id="profile" class="clearfix">
+            	<h4>Profile</h4>
+                <p>血液型：Ｏ型</p><p>デジハリ文芸サークル所属（元サークル長）</p>
+                <p>ゲーム（特にＲＰＧ）と本をこよなく愛す酔いどれ。趣味は水泳、読書、飲酒。</p>
+                <p>甲州のワイナリーで赤ワインを浴びるように飲むという野望を抱いている。</p>
+            </section>
+            
+            <section id="career" class="clearfix">
+            	<h4>Career</h4>
+                <p>2014年3月 越谷総合技術高等学校 情報技術科 卒業</p>
+                <p>同4月にデジタルハリウッド大学 デジタルコミュニケーション学部 デジタルコンテンツ学科に入学。</p>
+                <p>ゲーム制作のためにプログラミング、シナリオ制作、マルチメディアコンテンツについて学び、米光ゼミに所属。</p>
+            </section>
+	  </div>
+      
+      <div>
+      		<section id="activity" class="clearfix">
+            	<h4>Activity</h4>
+                	<article id="bungei" class="clearfix">
+                    	<h5>デジハリ文芸サークル</h5>
+                        	<p>デジハリ文芸サークルに所属し、年に2，3冊の冊子を作成しています！</p>
+                            <p>普段の活動では文章力強化のために、原稿用紙を複数人で回してひとつの短編を作るリレー小説、三つのお題を決めて即興で短編を執筆する三大噺などを行っています。</p>
+                    </article>
+                    <article id="parttime" class="clearfix">
+                    	<h5>アルバイト</h5>
+                        	<p>文字校正、飲食店、接骨院、大学図書館の受付を同時に掛け持ちして働く。</p>
+                    </article>
+            </section>
+	  </div>
+        
+        <div>
+        	<section id="favourite" class="clearfix">
+            	<h4>Favourite</h4>
+             		<article id="narou" class="box">
+                            <h5>小説家になろう</h5>
+                                <p><img src="images/narou.jpg" width="248" height="160" alt="小説家になろうのサイト"></p>
+                                <p>小説投稿サイト「小説家になろう」は自分で執筆した小説を簡単に掲載することができるサイトです。定期的にコンテストなども開催しており、コンテストで優秀賞に選ばれたり掲載した小説の人気が出ると書籍化されたりすることがあります。”なろう作家”と呼ばれる作家さんも多くいらっしゃいます。デジハリ文芸サークルの投稿作品もありますので興味がある方は是非！</p>
+                                <p><a href="http://mypage.syosetu.com/413291/" target="_blank">link</a></p>
+                     </article>
+                     
+                     <article class="box">
+                            <h5>NIHYAKU-ICHI°</h5>
+                                <p><img src="images/nihyakuichi.jpg" width="248" height="160" alt="NIHYAKUICHIのサイト"></p>
+                                <p>DRAFT社の『201°』はオフィス家具ブランドです。従来の日本家具から少しだけ発想を変えて作るということから人間の視界と言われる200°から１°だけ足した『201°』という名をつけたそうです。デザインやアニメーションはシンプルながらこだわりが垣間見えるWebサイトだと個人的に思います。初見の感想は”ぬるぬる動いてすごい。”</p>
+                                <p><a href="https://201d.jp/" target="_blank">link</a></p>
+                     </article>
+                     
+                     <article class="box">
+                            <h5>Googleサイト</h5>
+                                <p><img src="images/googlesite.jpg" width="248" height="160" alt="Googleサイトの画像"></p>
+                                <p>Googleサイトはhtml不要でウェブサイトを作成することができるサイトです。クラブや企業イントラネットにも使用できる一方、家族用のサイトを作成できるなど、幅広い用途に使用できます。</p>
+                                <p><a href="https://www.google.com/sites/help/intl/ja/overview.html" target="_blank">link</a></p>
+                     </article>
+            </section>
+         </div>        
+        
+    <footer>
+    <p id="gotoTop"><a href="#pageHeader"><img src="images/btn_pagetop.png" width="39" height="114" alt="Page Top"></a></p>
+    
+    	<p><small>Copyright &copy; 2017 - 2018 Masaya Nakamura. AllRihgt Reserved.</small></p>
+     </footer>
+</body>
+</html>
